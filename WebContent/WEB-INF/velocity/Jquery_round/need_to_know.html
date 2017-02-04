@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="src/s8CyrcleInfoBox.css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="http://freepngimages.com/wp-content/uploads/2015/08/planet-mars.png" media="screen" />
+
+</head>
+<style type="text/css">
+		body{
+		background-image:url(http://2.bp.blogspot.com/__bqXP4eg7X8/TIgHU4hoLYI/AAAAAAAABV8/VKqq1UTq5FQ/s1600/Venus-2.jpg);
+		backgound-repeat:no-repeat no-repeat;
+		background-size:100% ;
+	}
+		#container1{
+		opacity:1;
+		postion:fixed;
+		top:0;
+		margin:auto;
+		margin-top:5em;
+	}
+	#jumbobox{
+		opacity:1;
+		postion:fixed;
+		width:50%;
+		margin-left: 5em;
+	}
+
+</style>
+<body>
+
+
+<div class="jumbotron" id="jumbobox" style="background-color: rgba(0, 0, 0, 0.5)">
+	<div>
+		<h1 style="color: white"> Mars: 10 things you must know</h1>
+	</div>
+</div>
+
+<div id="container1" class="container" style="background-color: rgba(0, 0, 0, 0.5)">
+			<div class="circle1">
+				<ul class="circleWrapper wStyle1">
+					<li>
+						<div class="circleFeature fStyle1" data-cyrcleBox="f1">Small Planet</div>
+						<div class="circleBox" id="f1"> If the sun were as tall as a typical front door, Earth would be the size of a nickel, and Mars would be about as big as an aspirin tablet.
+						</div>
+					</li>
+					<li>
+						<div class="circleFeature fStyle1" data-cyrcleBox="f2">Fourth Rock</div>
+						<div class="circleBox" id="f2" style="font-size: 30px" >Mars orbits our sun, a star. Mars is the fourth planet from the sun at a distance of about 228 million km (142 million miles) or 1.52 AU.</div>
+					</li>
+					<li>
+						<div class="circleFeature fStyle1" data-cyrcleBox="f3">Longer Days</div>
+						<div class="circleBox" id="f3"> One day on Mars takes just a little over 24 hours (the time it takes for Mars to rotate or spin once). Mars makes a complete orbit around the sun (a year in Martian time) in 687 Earth days.
+
+						</div>
+					</li>
+					<li>
+						<div class="circleFeature fStyle1" data-cyrcleBox="f4">Rugged Terrain</div>
+						<div class="circleBox" id="f4">Mars is a rocky planet, also known as a terrestrial planet. Mars' solid surface has been altered by volcanoes, impacts, crustal movement and atmospheric effects such as dust storms.
+
+
+						</div>
+					</li>
+					<li>
+						<div class="circleFeature fStyle1" data-cyrcleBox="f5">Bring a Spacesuit</div>
+						<div class="circleBox" id="f5">Mars has a thin atmosphere made up mostly of carbon dioxide (CO2), nitrogen (N2) and argon (Ar).
+						</div>
+					</li>
+					<li>
+						<div class="circleFeature fStyle1" data-cyrcleBox="f6">Double Moons</div>
+						<div class="circleBox" id="f6"> Mars has two moons named Phobos and Deimos.
+
+
+						</div>
+					</li>
+					<li>
+						<div class="circleFeature fStyle1" data-cyrcleBox="f7"> Ringless</div>
+						<div class="circleBox" id="f7"> There are no rings around Mars.
+						</div>
+					</li>
+					<li>
+						<div class="circleFeature fStyle1" data-cyrcleBox="f8">Many Missions</div>
+						<div class="circleBox" id="f8">Several missions have visited this planet, from flybys and orbiters to rovers on the surface of the Red Planet. The first true Mars mission success was Mariner 4 in 1965.
+						</div>
+					</li>
+
+					<li>
+						<div class="circleFeature fStyle1" data-cyrcleBox="f9">Tough for Life</div>
+						<div class="circleBox" id="f9">At this time in the planet's history, Mars' surface cannot support life as we know it. Current missions exploring Mars on the surface and from orbit are determining Mars' past and future potential for life.
+
+
+						</div>
+					</li>
+
+					<li>
+						<div class="circleFeature fStyle1" data-cyrcleBox="f10">Rusty Planet</div>
+						<div class="circleBox" id="f10">Mars is known as the Red Planet because iron minerals in the Martian soil oxidize, or rust, causing the soil -- and the dusty atmosphere -- to look red.
+						</div>
+					</li>
+
+
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="src/s8CyrcleInfoBox.js" type="text/javascript"></script>
+<script>$(".circle1").s8CircleInfoBox()</script>
+<script>$(".circle2").s8CircleInfoBox({
+	autoSlide: false,
+	action: "click"
+})</script>
+<script>$(".circle3").s8CircleInfoBox({
+	notResponsive: true,
+	hoverStyle:"circleSelect3",
+	slideSpeed: 500,
+	breakpoint: 0
+
+})</script>
+<script>$(".circle4").s8CircleInfoBox({
+	hoverStyle: "circleSelect4",
+	spreadStyle: "right"
+})</script>
+<script>$(".circle5").s8CircleInfoBox({
+	hoverStyle: "circleSelect4",
+	spreadStyle: "left"
+})</script>
+<script>$(".circle6").s8CircleInfoBox({
+	hoverStyle: "circleSelect4",
+	spreadStyle: "top"
+})</script>
+<script>$(".circle7").s8CircleInfoBox({
+	hoverStyle: "circleSelect4",
+	spreadStyle: "bottom"
+})</script>
+
+</body>
+</html>
