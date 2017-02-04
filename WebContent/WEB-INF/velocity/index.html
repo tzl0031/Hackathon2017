@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- #include file="base_css.html" --> 
+<!-- #include file="base_js.html" --> 
+<meta charset="UTF-8">
+<script type="text/javascript" src="/Hackathon/WebContent/jquery/md5/jquery.md5.js">
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<title>Main Page</title>
+<style>
+	body{
+		background-image:url(https://www.nasa.gov/sites/default/files/thumbnails/image/15396342336_aab94b6c7f_k.jpg);
+		backgound-repeat:no-repeat;
+		background-size:cover;
+	}
+	#jumbo{
+		
+		 } 
+	#container{
+		opacity:0.6;
+		postion:fixed;
+		top:50%;
+		margin:auto;
+		margin-top:20em;
+	}
+</style>
+</head>
+<body>
+	<div id="container" class="container" >	
+		<div class="jumbotron" id="jumbo">
+			<div>
+				<h1>Explore The Rover</h1>
+			</div>
+			<div class="btn-group btn-group-lg" role="group" style="margin-left:30%;margin-top:20px;font-size:20px;">
+				<button id="btn_c" type="button" class="btn btn-default" onclick="curiosity()">Curiosity</button>
+				<button id="btn_o" type="button" class="btn btn-default" style="margin-left:20px;" onclick="opportunity()">Opportunity</button>
+				<button id="btn_s" type="button" class="btn btn-default" style="margin-left:20px;" onclick="spirit()">Spirit</button>
+			</div>			
+		</div>
+	</div>
+<script>
+function curiosity() {
+    window.location="curiosity_ca.html";
+}
+function opportunity() {
+    window.location="oppor_ca.html";
+}
+function spirit() {
+    window.location="spirit_ca.html";
+}
+</script>
+</body>
+
+</html>

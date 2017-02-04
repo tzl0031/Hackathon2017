@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="/Hackathon/WebContent/jquery/md5/jquery.md5.js">
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<title>Curiosity Date List</title>
+</head>
+<style>
+	body{
+		background-image:url(https://www.nasa.gov/sites/default/files/thumbnails/image/15396342336_aab94b6c7f_k.jpg);
+		backgound-repeat:no-repeat;
+		background-size:cover;
+	}
+	#jumbobox{
+		opacity:0.6;
+		postion:fixed;
+		width:100%;
+	}
+</style>
+<body>
+
+<div class="container" id="jumbobox" >
+	<div class="jumbotron" >
+		<h1>Explore By Date</h1>
+	</div>
+</div>
+<div class="container" id="jumbobox">
+	<div style="background-color:grey;width:60%;margin:auto;margin-top:15%">
+		<div id="left" style="background-color:green;width:50%;height:100%;margin:auto;float:left;">
+			<h2 style="text-align: center;">Explore by Sol</h2>
+			<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-trigger="hover" data-placement="top"title="Popover title" data-content="Martian rotation,counting up from the rover's landing date">Click to toggle popover</button>
+				
+		</div>
+		<div id="right" style="background-color:red;width:50%;height:100%;margin:auto;float:right;">
+			<h2 style="text-align: center;">Explore by Earth Date</h2>
+		</div>
+		
+</div>	
+</div>
+<script>
+$(document).ready(function(){
+    alert("hello")
+});
+</script>
+</body>
+
+</html>
