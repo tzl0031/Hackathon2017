@@ -4,110 +4,106 @@
 <meta charset="UTF-8">
 <script type="text/javascript" src="/Hackathon/WebContent/jquery/md5/jquery.md5.js">
 </script>
+
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" ">
 
 <title>Curiosity Camera List</title>
 </head>
 <style>
 body{
-		background-image:url(https://www.nasa.gov/sites/default/files/thumbnails/image/15396342336_aab94b6c7f_k.jpg);
+		background-image:url(http://mars.jpl.nasa.gov/layout/msl/images/FollowYourCuriosity.jpg);
 		backgound-repeat:no-repeat;
 		background-size:cover;
+    /*background-position: center center*/
+
+  
 	}
-	#jumbobox{
+	#container{
 		opacity:0.6;
 		postion:fixed;
-		width:100%;
+    /*right:0;*/
+    /*bottom:0;*/
+    width: 40%;
+    margin-top: 40%;
+    float: right;
+
 	}
 </style>
 <body>
-<div class="container" id="jumbobox" >
-<div class="jumbotron" >
-	<h1>Explore Curiosity</h1>
-</div>
-</div>
-<div class="container">
 
+<div class="container" id="container">
 <!-- row 1 -->
  <div class="row" >
-  <div class="col-md-4">
+  <div class="col-md-3">
     <div class="thumbnail">
-      <a href="/w3images/lights.jpg">
-        <img src="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG" class="img-responsive"style="width:100%">
+      <a href="curiosity_date.html">
+        <img src="http://mars.nasa.gov/msl/layout/msl/images/raw-image2b.jpg"style="width:100%">
         <div class="caption">
-          <p>FHAZ</p>
           <p>Front Hazard Avoidance Camera</p>
         </div>
       </a>
     </div>
   </div>
-   <div class="col-md-4">
+   <div class="col-md-3">
     <div class="thumbnail">
-      <a href="/w3images/lights.jpg">
-        <img src="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG" class="img-responsive"style="width:100%">
+      <a href="curiosity_date.html">
+        <img src="http://mars.nasa.gov/msl/layout/msl/images/raw-image2b.jpg" class="img-responsive"style="width:100%">
         <div class="caption">
-          <p>RHAZ</p>
           <p>Rear Hazard Avoidance Camera</p>
         </div>
       </a>
     </div>
   </div>
-   <div class="col-md-4">
+   <div class="col-md-3">
     <div class="thumbnail">
-      <a href="/w3images/lights.jpg">
-        <img src="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG" class="img-responsive"style="width:100%">
+      <a href="curiosity_date.html">
+        <img src="http://mars.nasa.gov/msl/images/mastcam_camera.jpg" class="img-responsive"style="width:100%">
         <div class="caption">
-          <p>MAST</p>
           <p>Mast Camera</p>
         </div>
       </a>
     </div>
   </div>
-</div>
-<!-- row 2 -->
-<div class="row">
-   <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="/w3images/lights.jpg">
-        <img src="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG" class="img-responsive"style="width:100%">
+     <div class="col-md-3">
+  <div class="thumbnail">
+      <a href="curiosity_date.html">
+        <img src="http://mars.nasa.gov/msl/images/ChemCam2.jpg" class="img-responsive"style="width:100%">
         <div class="caption">
-          <p>CHEMCAM</p>
           <p>Chemistry and Camera Complex</p>
         </div>
       </a>
     </div>
   </div>
-    <div class="col-md-4">
+</div>
+  <!-- row 2 -->
+<div class="row">
+   <div class="col-md-3">
       <div class="thumbnail">
-        <a href="/w3images/lights.jpg">
-          <img src="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG" class="img-responsive"style="width:100%">
+        <a href="curiosity_date.html">
+          <img src="http://mars.nasa.gov/msl/images/Yingst-1-pia15699-br.jpg" class="img-responsive"style="width:100%">
           <div class="caption">
-            <p>MAHLI</p>
             <p>Mars Hand Lens Imager</p>
           </div>
         </a>
       </div>
     </div>
-     <div class="col-md-4">
+     <div class="col-md-3">
       <div class="thumbnail">
-        <a href="/w3images/lights.jpg">
-          <img src="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG" class="img-responsive"style="width:100%">
+        <a href="curiosity_date.html">
+          <img src="http://mars.nasa.gov/msl/images/PIA16021_malin_05_heatshield-br.jpg" class="img-responsive"style="width:100%">
           <div class="caption">
-            <p>MARDI</p>
             <p>Mars Descent Imager</p>
           </div>
         </a>
       </div>
     </div>
-  </div>
-<!-- row 3 -->
-  <div class="row">
-     <div class="col-md-4">
+
+     <div class="col-md-3">
       <div class="thumbnail">
         <a href="www.baidu.com">
-          <img src="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG" class="img-responsive"style="width:100%">
+          <img src="http://photojournal.jpl.nasa.gov/jpeg/PIA13809.jpg" class="img-responsive"style="width:100%">
           <div class="caption">
-            <p>MAVCAM</p>
             <p>Navigation Camera</p>
           </div>
         </a>
